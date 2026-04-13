@@ -2,11 +2,6 @@ name: update-report
 
 on:
   workflow_dispatch:
-    inputs:
-      bootstrap_days:
-        description: "初回だけ直近何日分をまとめて取得するか。通常は0、初回は30推奨"
-        required: false
-        default: "0"
   schedule:
     - cron: "30 16 * * *"
   push:
@@ -28,8 +23,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      BOOTSTRAP_DAYS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.bootstrap_days || '0' }}
 
     steps:
       - name: Checkout
@@ -46,8 +39,7 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Collect latest min-repo data
-          run: python scripts/collect_minrepo.py --config config.toml
-
+        run: python scripts/collect_minrepo.py --config config.toml
 
       - name: Build analysis reports
         run: python scripts/analyze_minrepo.py --config config.toml
