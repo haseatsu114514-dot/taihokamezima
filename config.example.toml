@@ -1,0 +1,93 @@
+database_path = "data/taihokamezima.sqlite3"
+snapshot_dir = "data/raw"
+report_dir = "reports"
+user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
+request_timeout_seconds = 30
+request_delay_seconds = 0.5
+max_listing_pages = 2
+
+[analysis]
+lookback_days = 120
+watchlist_event_weight = 0.65
+recent_weight = 0.35
+
+[[stores]]
+key = "taiho_kamejima"
+name = "タイホウ亀島店"
+timezone = "Asia/Tokyo"
+listing_url = "https://min-repo.com/tag/%E3%82%BF%E3%82%A4%E3%83%9B%E3%82%A6%E4%BA%80%E5%B3%B6%E5%BA%97/"
+all_units_query = "?kishu=all&sort=num"
+
+[[watchlist_machines]]
+store_key = "taiho_kamejima"
+machine_name = "沖ドキゴージャス"
+display_name = "沖ドキゴージャス"
+match_type = "regex"
+match_value = "沖ドキ.*ゴージャス"
+priority = 10
+note = "沖ドキ系の本命監視"
+
+[[watchlist_machines]]
+store_key = "taiho_kamejima"
+machine_name = "スーパーブラックジャック"
+display_name = "スーパーブラックジャック"
+match_type = "regex"
+match_value = "ブラックジャック|スーパーブラックジャック|SBJ"
+priority = 20
+note = "ブラック指定の監視用"
+
+[[watchlist_machines]]
+store_key = "taiho_kamejima"
+machine_name = "北斗の拳シリーズ"
+display_name = "北斗の拳シリーズ"
+match_type = "contains"
+match_value = "北斗の拳"
+priority = 30
+note = "シリーズ横断で監視"
+
+[[watchlist_machines]]
+store_key = "taiho_kamejima"
+machine_name = "ハナハナシリーズ"
+display_name = "ハナハナシリーズ"
+match_type = "contains"
+match_value = "ハナハナ"
+priority = 40
+note = "シリーズ横断で監視"
+
+[[watchlist_machines]]
+store_key = "taiho_kamejima"
+machine_name = "ジャグラーシリーズ"
+display_name = "ジャグラーシリーズ"
+match_type = "contains"
+match_value = "ジャグラー"
+priority = 50
+note = "シリーズ横断で監視"
+
+[[watchlist_machines]]
+store_key = "taiho_kamejima"
+machine_name = "東京グール"
+display_name = "東京グール"
+match_type = "regex"
+match_value = "東京グール|東京喰種"
+priority = 60
+note = "表記ゆれ対策込み"
+
+[[watchlist_machines]]
+store_key = "taiho_kamejima"
+machine_name = "モンキーターン"
+display_name = "モンキーターン"
+match_type = "contains"
+match_value = "モンキーターン"
+priority = 70
+note = "シリーズ横断で監視"
+
+[[hypotheses]]
+store_key = "taiho_kamejima"
+hypothesis_key = "user_day4"
+label = "4のつく日仮説"
+tag_key = "day_4"
+tag_label = "4のつく日"
+rule_type = "day_digit"
+rule_value = "4"
+expected_direction = "up"
+description = "ユーザー仮説として、4のつく日は通常日より稼働と勝率が上がるか検証する。"
