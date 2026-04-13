@@ -3,7 +3,7 @@ name: update-report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 21 * * *"
+    - cron: "30 16 * * *"
   push:
     branches:
       - main
