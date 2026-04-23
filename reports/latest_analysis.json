@@ -3,36 +3,36 @@
     {
       "delta": {
         "average_diff": null,
-        "average_games": 1467.31,
-        "win_rate": 7.37
+        "average_games": 1547.6,
+        "win_rate": 7.25
       },
       "label": "3のつく日",
       "normal": {
         "average_diff": null,
-        "average_games": 1831.36,
-        "days": 108,
-        "win_rate": 33.07
+        "average_games": 1830.85,
+        "days": 109,
+        "win_rate": 33.06
       },
       "tag_key": "official_3day",
       "tagged": {
         "average_diff": null,
-        "average_games": 3298.67,
-        "days": 12,
-        "win_rate": 40.44
+        "average_games": 3378.45,
+        "days": 11,
+        "win_rate": 40.31
       }
     },
     {
       "delta": {
         "average_diff": null,
-        "average_games": 1039.56,
-        "win_rate": 4.46
+        "average_games": 1045.12,
+        "win_rate": 4.54
       },
       "label": "第1土曜日",
       "normal": {
         "average_diff": null,
-        "average_games": 1943.44,
+        "average_games": 1937.88,
         "days": 116,
-        "win_rate": 33.66
+        "win_rate": 33.58
       },
       "tag_key": "official_first_saturday",
       "tagged": {
@@ -45,15 +45,15 @@
     {
       "delta": {
         "average_diff": null,
-        "average_games": -10.01,
-        "win_rate": -1.71
+        "average_games": -4.04,
+        "win_rate": -1.62
       },
       "label": "4のつく日仮説",
       "normal": {
         "average_diff": null,
-        "average_games": 1979.09,
+        "average_games": 1973.12,
         "days": 108,
-        "win_rate": 33.98
+        "win_rate": 33.89
       },
       "tag_key": "day_4",
       "tagged": {
@@ -64,13 +64,13 @@
       }
     }
   ],
-  "generated_at": "2026-04-22T17:37:12",
+  "generated_at": "2026-04-23T17:58:48",
   "hypothesis_results": [
     {
       "delta": {
         "average_diff": null,
-        "average_games": -10.01,
-        "win_rate": -1.71
+        "average_games": -4.04,
+        "win_rate": -1.62
       },
       "description": "ユーザー仮説として、4のつく日は通常日より稼働と勝率が上がるか検証する。",
       "hypothesis_key": "user_day4",
@@ -83,52 +83,52 @@
       },
       "untagged": {
         "average_diff": null,
-        "average_games": 1979.09,
+        "average_games": 1973.12,
         "days": 108,
-        "win_rate": 33.98
+        "win_rate": 33.89
       },
       "verdict": "保留"
     }
   ],
   "latest_day": {
-    "all_units_url": "https://min-repo.com/3056288/?kishu=all&sort=num",
+    "all_units_url": "https://min-repo.com/3057774/?kishu=all&sort=num",
     "average_diff": null,
-    "average_games": 1889,
-    "collected_at": "2026-04-22T17:32:49+00:00",
-    "id": 466,
+    "average_games": 1776,
+    "collected_at": "2026-04-23T17:53:12+00:00",
+    "id": 467,
     "list_average_diff": null,
-    "list_average_games": 1889,
+    "list_average_games": 1776,
     "list_position": 1,
     "list_total_diff": null,
     "note": {
       "page_status": null,
-      "page_title": "4/21(火) タイホウ亀島店"
+      "page_title": "4/22(水) タイホウ亀島店"
     },
-    "note_json": "{\"page_status\": null, \"page_title\": \"4/21(火) タイホウ亀島店\"}",
+    "note_json": "{\"page_status\": null, \"page_title\": \"4/22(水) タイホウ亀島店\"}",
     "official_event_text": "3のつく日、",
     "pay_rate": null,
-    "published_at": "2026-04-22",
-    "report_url": "https://min-repo.com/3056288/",
-    "stat_date": "2026-04-21",
+    "published_at": "2026-04-23",
+    "report_url": "https://min-repo.com/3057774/",
+    "stat_date": "2026-04-22",
     "store_key": "taiho_kamejima",
     "tags": [],
     "total_diff": null,
     "total_machines": 320,
-    "updated_at": "2026-04-22T17:32:49+00:00",
-    "win_rate": 30.0,
-    "winners": 96
+    "updated_at": "2026-04-23T17:53:12+00:00",
+    "win_rate": 32.19,
+    "winners": 103
   },
   "previous_event_comparison": {
     "current": {
       "average_diff": null,
-      "average_games": 1889,
-      "win_rate": 30.0
+      "average_games": 1776,
+      "win_rate": 32.19
     },
-    "current_date": "2026-04-21",
+    "current_date": "2026-04-22",
     "delta": {
       "average_diff": null,
-      "average_games": -1014,
-      "win_rate": -9.06
+      "average_games": -1127,
+      "win_rate": -6.87
     },
     "previous": {
       "average_diff": null,
@@ -145,16 +145,16 @@
     {
       "event_average_diff": 0.14,
       "event_average_games": 3330.8,
-      "overall_average_games": 2045.55,
-      "score": 976.62,
+      "overall_average_games": 2046.56,
+      "score": 981.62,
       "suffix_key": "9",
       "suffix_label": "9",
-      "top3_hits": 182
+      "top3_hits": 183
     },
     {
       "event_average_diff": 0.0,
       "event_average_games": 3277.13,
-      "overall_average_games": 2019.73,
+      "overall_average_games": 2018.53,
       "score": 950.54,
       "suffix_key": "8",
       "suffix_label": "8",
@@ -163,16 +163,16 @@
     {
       "event_average_diff": 0.0,
       "event_average_games": 3385.31,
-      "overall_average_games": 2035.09,
-      "score": 942.71,
+      "overall_average_games": 2035.0,
+      "score": 947.71,
       "suffix_key": "1",
       "suffix_label": "1",
-      "top3_hits": 175
+      "top3_hits": 176
     },
     {
       "event_average_diff": 0.0,
       "event_average_games": 3287.62,
-      "overall_average_games": 1966.06,
+      "overall_average_games": 1965.15,
       "score": 805.75,
       "suffix_key": "0",
       "suffix_label": "0",
@@ -181,7 +181,7 @@
     {
       "event_average_diff": 0.0,
       "event_average_games": 3406.69,
-      "overall_average_games": 1987.32,
+      "overall_average_games": 1986.09,
       "score": 768.13,
       "suffix_key": "6",
       "suffix_label": "6",
@@ -189,26 +189,26 @@
     }
   ],
   "today_summary": {
-    "headline": "2026-04-21 は neutral 判定",
+    "headline": "2026-04-22 は neutral 判定",
     "intensity": {
       "baseline": {
         "average_diff": null,
-        "average_games": 1978.09,
-        "win_rate": 33.81
+        "average_games": 1972.72,
+        "win_rate": 33.73
       },
       "components": {
         "average_diff": null,
-        "average_games": 48.22,
-        "win_rate": 49.24
+        "average_games": 46.07,
+        "win_rate": 49.69
       },
       "label": "neutral",
-      "score": 48.73
+      "score": 47.88
     },
-    "stat_date": "2026-04-21"
+    "stat_date": "2026-04-22"
   },
   "warnings": [
     {
-      "created_at": "2026-04-22T17:37:11+00:00",
+      "created_at": "2026-04-23T17:58:48+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-10-03",
@@ -216,7 +216,7 @@
       "page_url": "https://min-repo.com/3936/"
     },
     {
-      "created_at": "2026-04-22T17:37:10+00:00",
+      "created_at": "2026-04-23T17:58:46+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-10-13",
@@ -224,7 +224,7 @@
       "page_url": "https://min-repo.com/6689/"
     },
     {
-      "created_at": "2026-04-22T17:37:10+00:00",
+      "created_at": "2026-04-23T17:58:45+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-10-23",
@@ -232,7 +232,7 @@
       "page_url": "https://min-repo.com/9495/"
     },
     {
-      "created_at": "2026-04-22T17:37:09+00:00",
+      "created_at": "2026-04-23T17:58:44+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-11-03",
@@ -240,7 +240,7 @@
       "page_url": "https://min-repo.com/12552/"
     },
     {
-      "created_at": "2026-04-22T17:37:08+00:00",
+      "created_at": "2026-04-23T17:58:43+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-11-13",
@@ -248,7 +248,7 @@
       "page_url": "https://min-repo.com/15397/"
     },
     {
-      "created_at": "2026-04-22T17:37:07+00:00",
+      "created_at": "2026-04-23T17:58:41+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-11-23",
@@ -256,7 +256,7 @@
       "page_url": "https://min-repo.com/18748/"
     },
     {
-      "created_at": "2026-04-22T17:37:06+00:00",
+      "created_at": "2026-04-23T17:58:40+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-12-03",
@@ -264,7 +264,7 @@
       "page_url": "https://min-repo.com/22824/"
     },
     {
-      "created_at": "2026-04-22T17:37:05+00:00",
+      "created_at": "2026-04-23T17:58:39+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-12-13",
@@ -272,7 +272,7 @@
       "page_url": "https://min-repo.com/26603/"
     },
     {
-      "created_at": "2026-04-22T17:37:04+00:00",
+      "created_at": "2026-04-23T17:58:38+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2019-12-23",
@@ -280,7 +280,7 @@
       "page_url": "https://min-repo.com/30518/"
     },
     {
-      "created_at": "2026-04-22T17:37:03+00:00",
+      "created_at": "2026-04-23T17:58:36+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-01-03",
@@ -288,7 +288,7 @@
       "page_url": "https://min-repo.com/35190/"
     },
     {
-      "created_at": "2026-04-22T17:37:02+00:00",
+      "created_at": "2026-04-23T17:58:35+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-01-13",
@@ -296,7 +296,7 @@
       "page_url": "https://min-repo.com/39375/"
     },
     {
-      "created_at": "2026-04-22T17:37:01+00:00",
+      "created_at": "2026-04-23T17:58:33+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-01-23",
@@ -304,7 +304,7 @@
       "page_url": "https://min-repo.com/44320/"
     },
     {
-      "created_at": "2026-04-22T17:37:00+00:00",
+      "created_at": "2026-04-23T17:58:32+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-02-01",
@@ -312,7 +312,7 @@
       "page_url": "https://min-repo.com/48368/"
     },
     {
-      "created_at": "2026-04-22T17:36:59+00:00",
+      "created_at": "2026-04-23T17:58:31+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-02-03",
@@ -320,7 +320,7 @@
       "page_url": "https://min-repo.com/49528/"
     },
     {
-      "created_at": "2026-04-22T17:36:58+00:00",
+      "created_at": "2026-04-23T17:58:30+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-02-13",
@@ -328,7 +328,7 @@
       "page_url": "https://min-repo.com/54911/"
     },
     {
-      "created_at": "2026-04-22T17:36:57+00:00",
+      "created_at": "2026-04-23T17:58:29+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-02-23",
@@ -336,7 +336,7 @@
       "page_url": "https://min-repo.com/59940/"
     },
     {
-      "created_at": "2026-04-22T17:36:56+00:00",
+      "created_at": "2026-04-23T17:58:28+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-03-03",
@@ -344,7 +344,7 @@
       "page_url": "https://min-repo.com/64834/"
     },
     {
-      "created_at": "2026-04-22T17:36:55+00:00",
+      "created_at": "2026-04-23T17:58:26+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-03-07",
@@ -352,7 +352,7 @@
       "page_url": "https://min-repo.com/66606/"
     },
     {
-      "created_at": "2026-04-22T17:36:54+00:00",
+      "created_at": "2026-04-23T17:58:25+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-03-13",
@@ -360,7 +360,7 @@
       "page_url": "https://min-repo.com/70284/"
     },
     {
-      "created_at": "2026-04-22T17:36:53+00:00",
+      "created_at": "2026-04-23T17:58:24+00:00",
       "error_kind": "structure_changed",
       "error_message": "machine summary rows were not found on daily page",
       "page_date": "2020-03-23",
@@ -370,22 +370,6 @@
   ],
   "watchlist_priorities": [
     {
-      "event_average_diff": -0.13,
-      "event_average_games": 2317.81,
-      "machine_name": "北斗の拳シリーズ",
-      "matched_machine_names": [
-        "Lスマスロ北斗の拳",
-        "スマスロ北斗の拳 転生の章2"
-      ],
-      "note": "シリーズ横断で監視",
-      "overall_average_diff": -0.15,
-      "overall_average_games": 1761.72,
-      "priority": 30,
-      "reason": "直近稼働が上向き",
-      "sample_days": 573,
-      "score": 202.34
-    },
-    {
       "event_average_diff": -0.03,
       "event_average_games": 1744.61,
       "machine_name": "沖ドキゴージャス",
@@ -394,11 +378,11 @@
       ],
       "note": "沖ドキ系の本命監視",
       "overall_average_diff": -0.05,
-      "overall_average_games": 1470.22,
+      "overall_average_games": 1469.8,
       "priority": 10,
       "reason": "イベント日に伸びやすい",
-      "sample_days": 466,
-      "score": 202.17
+      "sample_days": 467,
+      "score": 201.25
     },
     {
       "event_average_diff": -0.22,
@@ -412,11 +396,27 @@
       ],
       "note": "シリーズ横断で監視",
       "overall_average_diff": -0.34,
-      "overall_average_games": 2382.42,
+      "overall_average_games": 2382.04,
       "priority": 40,
       "reason": "イベント日に伸びやすい",
-      "sample_days": 1267,
-      "score": 199.16
+      "sample_days": 1269,
+      "score": 198.98
+    },
+    {
+      "event_average_diff": -0.13,
+      "event_average_games": 2317.81,
+      "machine_name": "北斗の拳シリーズ",
+      "matched_machine_names": [
+        "Lスマスロ北斗の拳",
+        "スマスロ北斗の拳 転生の章2"
+      ],
+      "note": "シリーズ横断で監視",
+      "overall_average_diff": -0.15,
+      "overall_average_games": 1760.3,
+      "priority": 30,
+      "reason": "イベント日に伸びやすい",
+      "sample_days": 575,
+      "score": 198.46
     },
     {
       "event_average_diff": -0.38,
@@ -446,11 +446,11 @@
       ],
       "note": "シリーズ横断で監視",
       "overall_average_diff": -0.17,
-      "overall_average_games": 3042.66,
+      "overall_average_games": 3039.86,
       "priority": 50,
       "reason": "イベント日に伸びやすい",
-      "sample_days": 955,
-      "score": 156.88
+      "sample_days": 959,
+      "score": 156.19
     },
     {
       "event_average_diff": -0.12,
@@ -461,11 +461,11 @@
       ],
       "note": "表記ゆれ対策込み",
       "overall_average_diff": -0.18,
-      "overall_average_games": 3014.46,
+      "overall_average_games": 3018.86,
       "priority": 60,
       "reason": "イベント日に伸びやすい",
-      "sample_days": 432,
-      "score": 151.67
+      "sample_days": 433,
+      "score": 154.33
     },
     {
       "event_average_diff": -0.19,
@@ -476,11 +476,11 @@
       ],
       "note": "シリーズ横断で監視",
       "overall_average_diff": -0.28,
-      "overall_average_games": 2402.02,
+      "overall_average_games": 2398.78,
       "priority": 70,
       "reason": "イベント日に伸びやすい",
-      "sample_days": 466,
-      "score": 136.92
+      "sample_days": 467,
+      "score": 136.18
     }
   ]
 }
