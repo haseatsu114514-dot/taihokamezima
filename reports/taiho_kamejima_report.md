@@ -1,6 +1,6 @@
 # taiho_kamejima レポート
 
-- 生成時刻: 2026-05-05T18:05:15
+- 生成時刻: 2026-05-06T18:05:13
 - サンプル日数: 120
 
 ## 今日の強弱サマリー
@@ -37,14 +37,14 @@
 - 4のつく日仮説: verdict=保留, avg_G差=8.48, 勝率差=-1.60
 
 ## 取得/解析警告
-- 2026-05-05T18:05:14+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:13+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:12+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:11+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:10+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:09+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:07+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:06+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:05+00:00 daily structure_changed: machine summary rows were not found on daily page
-- 2026-05-05T18:05:04+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:13+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:11+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:10+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:09+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:08+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:07+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:06+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:05+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:04+00:00 daily structure_changed: machine summary rows were not found on daily page
+- 2026-05-06T18:05:03+00:00 daily structure_changed: machine summary rows were not found on daily page
 
